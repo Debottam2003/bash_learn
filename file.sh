@@ -16,6 +16,6 @@ echo "New line" >> file.txt
 wc file.txt
 
 t=$(cat file.txt)
-echo $t
+echo "$t"
 
 echo "hi" "debottam"
