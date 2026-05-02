@@ -1,0 +1,3 @@
+this is a simple text file
+i am debottam kar
+i have created this file to learn file handling in shell scripting
