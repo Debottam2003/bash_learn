@@ -1,0 +1,17 @@
+hello
+a
+b
+c
+debottam
+hello how are you
+0123456789
+gagan@gmail.com
+gagan@outlook.com
+debottam_kar.coding-js@gmail.com
+shub@gmail.com
+shub@outlook.com
+
+0 success code
+1 error code
+
+$? -> last command exit status variable
