@@ -17,3 +17,12 @@ for i in "$@";
 do
 echo $i
 done
+
+i=1
+
+while [ $i -le 10 ];
+do
+sleep 1
+echo "${i}"
+i=$((i + 1))
+done
