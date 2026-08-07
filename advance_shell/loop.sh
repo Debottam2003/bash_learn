@@ -12,3 +12,8 @@ for ((i=1;i<=5;i++))
 do
 echo $i
 done
+
+for i in "$@";
+do
+echo $i
+done
