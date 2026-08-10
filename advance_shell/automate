@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+if [ -z "${1}" ];
+then
+   echo "Provide a filename"
+else
+   touch "${1}"
+   chmod +x "./${1}"
+fi
