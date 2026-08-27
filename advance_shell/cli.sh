@@ -8,7 +8,7 @@ fi
 
 echo "Your age is ${age}"
 
-for i in "$@";
+for i in "$@"; # $@ is the command line arrugmets that are passed
 do
 echo $i
 done
