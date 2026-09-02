@@ -5,7 +5,7 @@ b=2
 
 echo "a = ${a} b = ${b}"
 
-if [ $a == $b ];
+if [[ $a -eq $b ]];
 then
    echo "a = ${a} is eual to b = ${b}"
 else
@@ -15,14 +15,14 @@ fi
 c=5
 d=10 
 
-if [ $c != $d ];
+if [[ $c -ne $d ]];
 then
    echo "c = ${c} is not eual to d = ${d}"
 else
    echo "c = ${c} is eual to d = ${d}"
 fi
 
-if [ -f ./file.txt ];
+if [[ -f ./file.txt ]];
 then
    echo "The file does exist."
 else
@@ -32,28 +32,28 @@ fi
 x=10
 y=10
 
-if [ $x -gt $y ];
+if [[ $x -gt $y ]];
 then
    echo "True"
 else
    echo "False"
 fi
 
-if [ $x -lt $y ];
+if [[ $x -lt $y ]];
 then
    echo "True"
 else
    echo "False"
 fi
 
-if [ $x -ge $y ];
+if [[ $x -ge $y ]];
 then
    echo "True"
 else
    echo "False"
 fi
 
-if [ $x -le $y ];
+if [[ $x -le $y ]];
 then
    echo "True"
 else

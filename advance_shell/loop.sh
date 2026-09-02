@@ -8,7 +8,7 @@ do
 echo $i
 done
 
-for ((i=1;i<=5;i++)) 
+for (( i=1; i<=5; i++ )) 
 do
 echo $i
 done
@@ -20,7 +20,7 @@ done
 
 i=1
 
-while [ $i -le 10 ];
+while [[ ${i} -le 10 ]];
 do
 sleep 1
 echo "${i}"

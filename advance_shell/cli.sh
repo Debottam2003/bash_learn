@@ -1,5 +1,5 @@
 # Command-line arguments
-if [ -n "$1" ];
+if [[ -n "$1" ]];
 then
    age=$1
 else
