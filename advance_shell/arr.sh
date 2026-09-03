@@ -53,3 +53,12 @@ echo "================================"
 
 arr2+=(push pop)
 echo "${arr2[@]}"
+
+echo "================================"
+# Sub Array
+arr=(debottam okudera rony ichinose ayanokoji tubai gopal)
+echo "All elements: ${arr[@]}" # Print all elements
+echo "All elements: ${arr[@]:0}" # Print all elements start from index 0
+echo "All elements: ${arr[@]:1}" # Print all elements start from index 1
+echo "All elements: ${arr[@]:2}" # Print all elements start from index 2
+echo "All elements: ${arr[@]:1:1}" # Start from index 1 and print 1 element
