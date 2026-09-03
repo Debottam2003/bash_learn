@@ -1,4 +1,4 @@
-if [[ -f temp.txt ]]
+if [[ -f temp.txt ]];
 then
     echo "File exists"
 fi

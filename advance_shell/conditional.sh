@@ -32,6 +32,20 @@ fi
 x=10
 y=10
 
+if [[ $x -eq $y ]];
+then
+   echo "True"
+else
+   echo "False"
+fi
+
+if [[ $x -ne $y ]];
+then
+   echo "True"
+else
+   echo "False"
+fi
+
 if [[ $x -gt $y ]];
 then
    echo "True"
