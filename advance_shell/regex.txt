@@ -1,0 +1,50 @@
+a-z
+A-Z
+0-9
+and other characters like !@#$%^&*()_+-={}[]|;:'",.<>?/\*
+These are called character classes in regex. They allow you to match specific sets of characters in a string. For example, [a-z] matches any lowercase letter, [A-Z] matches any uppercase letter, and [0-9] matches any digit. You can also combine them, such as [a-zA-Z0-9], which matches any alphanumeric character.
+
+{n,m} is a quantifier that specifies the minimum and maximum number of times 
+a character or group should be matched. 
+For example, a{2,4} matches 'aa', 'aaa', or 'aaaa', but not 'a' or 'aaaaa'.
+
+{n} is a quantifier that specifies the exact number of times a character or group should be matched.
+For example, a{3} matches 'aaa' but not 'aa' or 'aaaa'.
+
+{n,} is a quantifier that specifies the minimum number of times a character or group should be matched, with no maximum limit.
+For example, a{2,} matches 'aa', 'aaa', 'aaaa', and so on, but not 'a'.
+
+{,m} is a quantifier that specifies the maximum number of times a character or group should be matched, with no minimum limit.
+For example, a{,3} matches '', 'a', 'aa', or 'aaa', but not 'aaaa'.
+
+* is a quantifier that matches zero or more occurrences of the preceding character or group. 
+For example, a* matches '', 'a', 'aa', 'aaa', and so on.
+
++ is a quantifier that matches one or more occurrences of the preceding character or group.
+For example, a+ matches 'a', 'aa', 'aaa', and so on, but not '' (the empty string).
+
+\d matches any digit (equivalent to [0-9]).
+\w matches any word character (equivalent to [a-zA-Z0-9_]).
+\s matches any whitespace character (spaces, tabs, line breaks).
+. matches any character except for a newline.
+
+^ is an anchor that matches the start of a string. For example, ^a matches any string that starts with 'a'.
+$ is an anchor that matches the end of a string. For example, a$ matches any
+
+\D matches any non-digit character (equivalent to [^0-9]).
+\W matches any non-word character (equivalent to [^a-zA-Z0-9_]).
+\S matches any non-whitespace character.
+
+\ is used to escape special characters in regex. For example, if you want to match a literal dot (.), 
+you would use \. in your regex pattern because . denotes any character except for a newline.
+
+Example of a regex pattern:
+
+1. To match a valid email address, you could use the following regex pattern:
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+2. To match indian phone numbers, you could use the following regex pattern:
+^\+91[6-9]{1}[0-9]{9}$
+
+3. To match a date in the format YYYY-MM-DD, you could use the following regex pattern:
+^\d{4}-\d{2}-\d{2}$
