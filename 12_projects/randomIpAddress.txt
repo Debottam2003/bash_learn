@@ -1,0 +1,8 @@
+cloudflare DNS ip 1.1.1.1
+google DNS ip 8.8.8.8
+home server ip 127.0.16.133 127.0.16.134
+deb is choot 999.999.999.999
+gagan is ass
+im a good boy
+random ip address 1.2.3.4 4.3.2.1
+googoogaga ip 89999.0000.12.1/24 hello.world.txt.file
