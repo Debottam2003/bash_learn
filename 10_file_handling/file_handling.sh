@@ -4,7 +4,10 @@ rm filename
 mkdir new_directory
 rm -rf new_directory
 
+# Copy
 cp source_file destination_file
+cp source_file destination_file
+cp -r source_directory destination_directory
 
 # Rename
 mv filename new_filename
@@ -12,7 +15,7 @@ mv old_directory new_directory
 
 # Destination change
 mv file1 file2 new_directory
-mv old_directory destination_directory
+mv source_directory destination_directory
 
 # Open a file in an text editor
 nano filename
