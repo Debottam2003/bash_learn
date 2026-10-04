@@ -738,6 +738,13 @@ wget https://example.com/file.txt
 ```
 > `curl` is more universally encountered on modern systems; `wget` is also very common but isn't part of the POSIX core.
 
+
+### `nmcli(network manager)`
+```bash
+   nmcli device show (detailed)
+   nmcli device status (compact)
+   nmcli connection show
+```
 ---
 
 ## 26. DNS
