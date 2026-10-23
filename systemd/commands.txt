@@ -1,0 +1,9 @@
+| Task            | Command                              |
+| --------------- | ------------------------------------ |
+| Start           |  sudo systemctl start my-node-app    |
+| Stop            |  sudo systemctl stop my-node-app     |
+| Restart         |  sudo systemctl restart my-node-app  |
+| Enable at boot  |  sudo systemctl enable my-node-app   |
+| Disable at boot |  sudo systemctl disable my-node-app  |
+| Check status    |  sudo systemctl status my-node-app   |
+| Reload          |  sudo systemctl reload my-node-app   |
